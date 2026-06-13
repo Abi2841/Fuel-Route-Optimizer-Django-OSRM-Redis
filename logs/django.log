@@ -1,0 +1,464 @@
+INFO 2026-06-12 10:37:25,977 autoreload 222259 132253503293248 /home/abi/personal/fuel_route_optimizer/config/settings.py changed, reloading.
+INFO 2026-06-12 10:37:27,400 cache_service 233329 139531504334656 Loaded 8151 fuel stations from CSV
+INFO 2026-06-12 10:37:27,427 autoreload 233329 139531504334656 Watching for file changes with StatReloader
+INFO 2026-06-12 10:49:09,602 autoreload 233329 139531504334656 /home/abi/personal/fuel_route_optimizer/routes/services/cache_service.py changed, reloading.
+INFO 2026-06-12 10:49:10,743 cache_service 237906 135600432777024 Loaded 0 stations (skipped=8151)
+INFO 2026-06-12 10:49:10,765 autoreload 237906 135600432777024 Watching for file changes with StatReloader
+INFO 2026-06-12 10:49:53,001 autoreload 237906 135600432777024 /home/abi/personal/fuel_route_optimizer/config/settings.py changed, reloading.
+ERROR 2026-06-12 10:49:54,118 cache_service 238192 134822333339456 Fuel CSV not found: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 10:49:54,146 autoreload 238192 134822333339456 Watching for file changes with StatReloader
+INFO 2026-06-12 10:51:02,413 autoreload 238192 134822333339456 /home/abi/personal/fuel_route_optimizer/routes/apps.py changed, reloading.
+INFO 2026-06-12 10:51:03,326 autoreload 238617 130568705083200 Watching for file changes with StatReloader
+INFO 2026-06-12 10:52:44,690 data_enrichment_service 239295 124695676143424 Creating enriched fuel CSV...
+INFO 2026-06-12 10:52:44,690 data_enrichment_service 239295 124695676143424 Loading fuel station CSV...
+INFO 2026-06-12 10:52:44,707 data_enrichment_service 239295 124695676143424 Downloading US cities dataset...
+INFO 2026-06-12 10:52:45,280 data_enrichment_service 239295 124695676143424 Merging coordinates...
+INFO 2026-06-12 10:52:45,294 data_enrichment_service 239295 124695676143424 Matched 7516/8151 stations
+INFO 2026-06-12 10:52:45,336 data_enrichment_service 239295 124695676143424 Saved enriched CSV with 8151 rows
+INFO 2026-06-12 10:52:45,338 data_enrichment_service 239295 124695676143424 Created enriched CSV: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 10:52:45,373 cache_service 239295 124695676143424 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 10:52:45,979 data_enrichment_service 239311 124731089434432 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 10:52:46,020 cache_service 239311 124731089434432 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 10:52:46,030 autoreload 239311 124731089434432 Watching for file changes with StatReloader
+INFO 2026-06-12 11:02:17,180 autoreload 239311 124731089434432 /home/abi/personal/fuel_route_optimizer/routes/services/cache_service.py changed, reloading.
+INFO 2026-06-12 11:02:18,054 data_enrichment_service 242816 133113534461760 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:02:18,099 cache_service 242816 133113534461760 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 11:02:18,110 autoreload 242816 133113534461760 Watching for file changes with StatReloader
+INFO 2026-06-12 11:02:37,705 autoreload 242816 133113534461760 /home/abi/personal/fuel_route_optimizer/routes/services/cache_service.py changed, reloading.
+INFO 2026-06-12 11:02:38,548 data_enrichment_service 242968 126021752694592 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:02:38,548 data_enrichment_service 242968 126021752694592 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:02:38,559 autoreload 242968 126021752694592 Watching for file changes with StatReloader
+INFO 2026-06-12 11:03:23,479 autoreload 242968 126021752694592 /home/abi/personal/fuel_route_optimizer/routes/services/cache_service.py changed, reloading.
+INFO 2026-06-12 11:03:24,154 data_enrichment_service 243253 134338970007360 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:03:24,154 data_enrichment_service 243253 134338970007360 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:03:24,164 autoreload 243253 134338970007360 Watching for file changes with StatReloader
+INFO 2026-06-12 11:06:21,944 autoreload 243253 134338970007360 /home/abi/personal/fuel_route_optimizer/routes/views.py changed, reloading.
+INFO 2026-06-12 11:06:22,618 data_enrichment_service 244358 123413547423552 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:06:22,619 data_enrichment_service 244358 123413547423552 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:06:22,628 autoreload 244358 123413547423552 Watching for file changes with StatReloader
+INFO 2026-06-12 11:08:40,787 autoreload 244358 123413547423552 /home/abi/personal/fuel_route_optimizer/routes/services/fuel_optimizer.py changed, reloading.
+INFO 2026-06-12 11:08:41,480 data_enrichment_service 245495 131657929348928 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:08:41,480 data_enrichment_service 245495 131657929348928 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:08:41,490 autoreload 245495 131657929348928 Watching for file changes with StatReloader
+INFO 2026-06-12 11:10:41,532 autoreload 245495 131657929348928 /home/abi/personal/fuel_route_optimizer/routes/views.py changed, reloading.
+INFO 2026-06-12 11:10:42,374 data_enrichment_service 246257 126592040208192 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:10:42,374 data_enrichment_service 246257 126592040208192 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:10:42,385 autoreload 246257 126592040208192 Watching for file changes with StatReloader
+INFO 2026-06-12 11:12:10,978 autoreload 246257 126592040208192 /home/abi/personal/fuel_route_optimizer/routes/services/osrm_service.py changed, reloading.
+INFO 2026-06-12 11:12:11,723 data_enrichment_service 246831 127454153340736 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:12:11,723 data_enrichment_service 246831 127454153340736 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:12:11,734 autoreload 246831 127454153340736 Watching for file changes with StatReloader
+INFO 2026-06-12 11:32:44,340 data_enrichment_service 254442 139381518243648 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:32:44,340 data_enrichment_service 254442 139381518243648 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:32:45,940 data_enrichment_service 254485 140545835116352 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:32:45,941 data_enrichment_service 254485 140545835116352 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:32:45,961 autoreload 254485 140545835116352 Watching for file changes with StatReloader
+INFO 2026-06-12 11:33:42,294 data_enrichment_service 254858 129921264322368 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:33:42,295 data_enrichment_service 254858 129921264322368 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:33:42,355 cache_service 254858 129921264322368 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 11:33:43,830 data_enrichment_service 254890 130393156224832 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:33:43,831 data_enrichment_service 254890 130393156224832 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:33:43,889 cache_service 254890 130393156224832 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 11:33:43,911 autoreload 254890 130393156224832 Watching for file changes with StatReloader
+INFO 2026-06-12 11:34:03,128 views 254890 130392099813056 Route request received: (37.7749, -122.4194) -> (38.5816, -121.4944)
+INFO 2026-06-12 11:34:03,138 osrm_service 254890 130392099813056 OSRM cache MISS: route:37.7749_-122.4194:38.5816_-121.4944
+ERROR 2026-06-12 11:34:59,432 views 254890 130392099813056 Unexpected route optimization error
+Traceback (most recent call last):
+  File "/home/abi/personal/fuel_route_optimizer/routes/views.py", line 117, in post
+    route_data["distance"] / 1609.34,
+    ~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'distance'
+ERROR 2026-06-12 11:34:59,437 log 254890 130392099813056 Internal Server Error: /api/routes/optimize/
+INFO 2026-06-12 11:35:38,792 data_enrichment_service 255693 139982035359552 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:35:38,792 data_enrichment_service 255693 139982035359552 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:35:38,854 cache_service 255693 139982035359552 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 11:35:40,363 data_enrichment_service 255723 135759923812160 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:35:40,363 data_enrichment_service 255723 135759923812160 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:35:40,424 cache_service 255723 135759923812160 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 11:35:40,447 autoreload 255723 135759923812160 Watching for file changes with StatReloader
+INFO 2026-06-12 11:35:54,191 views 255723 135758867330752 Route request received: (37.7749, -122.4194) -> (38.5816, -121.4944)
+INFO 2026-06-12 11:35:54,204 osrm_service 255723 135758867330752 OSRM cache HIT: route:37.7749_-122.4194:38.5816_-121.4944
+INFO 2026-06-12 11:35:54,244 views 255723 135758867330752 Route distance 87.36 miles (cached)
+INFO 2026-06-12 11:35:54,245 views 255723 135758867330752 Loaded 7516 stations
+INFO 2026-06-12 11:35:55,045 fuel_optimizer 255723 135758867330752 Found 0 stations near route
+WARNING 2026-06-12 11:35:55,051 log 255723 135758867330752 Bad Request: /api/routes/optimize/
+INFO 2026-06-12 11:36:42,681 views 255723 135758856840896 Route request received: (37.7749, -122.4194) -> (38.5816, -121.4944)
+INFO 2026-06-12 11:36:42,738 osrm_service 255723 135758856840896 OSRM cache HIT: route:37.7749_-122.4194:38.5816_-121.4944
+INFO 2026-06-12 11:36:42,776 views 255723 135758856840896 Route distance 87.36 miles (cached)
+INFO 2026-06-12 11:36:42,776 views 255723 135758856840896 Loaded 7516 stations
+INFO 2026-06-12 11:37:16,958 fuel_optimizer 255723 135758856840896 Found 0 stations near route
+WARNING 2026-06-12 11:37:23,978 log 255723 135758856840896 Bad Request: /api/routes/optimize/
+INFO 2026-06-12 11:48:23,142 autoreload 255723 135759923812160 /home/abi/personal/fuel_route_optimizer/routes/services/fuel_optimizer.py changed, reloading.
+INFO 2026-06-12 11:48:25,254 data_enrichment_service 261216 139405931534144 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:48:25,255 data_enrichment_service 261216 139405931534144 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:48:25,338 cache_service 261216 139405931534144 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 11:48:25,369 autoreload 261216 139405931534144 Watching for file changes with StatReloader
+INFO 2026-06-12 11:48:51,747 data_enrichment_service 261639 124693823289152 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:48:51,747 data_enrichment_service 261639 124693823289152 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:48:51,812 cache_service 261639 124693823289152 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 11:48:53,406 data_enrichment_service 261670 135199006091072 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:48:53,406 data_enrichment_service 261670 135199006091072 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:48:53,472 cache_service 261670 135199006091072 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 11:48:53,497 autoreload 261670 135199006091072 Watching for file changes with StatReloader
+INFO 2026-06-12 11:49:18,630 views 261670 135197934233280 Route request received: (37.7749, -122.4194) -> (38.5816, -121.4944)
+INFO 2026-06-12 11:49:18,651 osrm_service 261670 135197934233280 OSRM cache HIT: route:37.7749_-122.4194:38.5816_-121.4944
+INFO 2026-06-12 11:49:18,699 views 261670 135197934233280 Route distance 87.36 miles (cached)
+INFO 2026-06-12 11:49:18,699 views 261670 135197934233280 Loaded 7516 stations
+INFO 2026-06-12 11:49:21,371 fuel_optimizer 261670 135197934233280 Found 0 stations near route
+WARNING 2026-06-12 11:49:21,375 log 261670 135197934233280 Bad Request: /api/routes/optimize/
+INFO 2026-06-12 11:49:30,423 views 261670 135197852956352 Route request received: (37.7749, -122.4194) -> (38.5816, -121.4944)
+INFO 2026-06-12 11:49:30,427 osrm_service 261670 135197852956352 OSRM cache HIT: route:37.7749_-122.4194:38.5816_-121.4944
+INFO 2026-06-12 11:49:30,467 views 261670 135197852956352 Route distance 87.36 miles (cached)
+INFO 2026-06-12 11:49:30,467 views 261670 135197852956352 Loaded 7516 stations
+INFO 2026-06-12 11:50:05,481 fuel_optimizer 261670 135197852956352 Found 0 stations near route
+WARNING 2026-06-12 11:50:20,690 log 261670 135197852956352 Bad Request: /api/routes/optimize/
+INFO 2026-06-12 11:51:13,205 views 261670 135197618058944 Route request received: (37.7749, -122.4194) -> (39.7392, -104.9903)
+INFO 2026-06-12 11:51:13,209 osrm_service 261670 135197618058944 OSRM cache MISS: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 11:51:15,444 views 261670 135197618058944 Route distance 1254.42 miles (fresh)
+INFO 2026-06-12 11:51:15,445 views 261670 135197618058944 Loaded 7516 stations
+INFO 2026-06-12 11:51:25,058 fuel_optimizer 261670 135197618058944 Found 98 stations near route
+INFO 2026-06-12 11:51:51,040 views 261670 135197802600128 Route request received: (37.7749, -122.4194) -> (39.7392, -104.9903)
+INFO 2026-06-12 11:51:51,053 osrm_service 261670 135197802600128 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 11:51:51,333 views 261670 135197802600128 Route distance 1254.42 miles (cached)
+INFO 2026-06-12 11:51:51,334 views 261670 135197802600128 Loaded 7516 stations
+INFO 2026-06-12 11:52:01,423 fuel_optimizer 261670 135197802600128 Found 98 stations near route
+INFO 2026-06-12 11:52:07,502 views 261670 135197810992832 Route request received: (37.7749, -122.4194) -> (39.7392, -104.9903)
+INFO 2026-06-12 11:52:07,518 osrm_service 261670 135197810992832 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 11:52:07,787 views 261670 135197810992832 Route distance 1254.42 miles (cached)
+INFO 2026-06-12 11:52:07,788 views 261670 135197810992832 Loaded 7516 stations
+INFO 2026-06-12 11:52:18,048 fuel_optimizer 261670 135197810992832 Found 98 stations near route
+INFO 2026-06-12 11:53:11,807 views 261670 135197819385536 Route request received: (40.7128, -74.006) -> (41.8781, -87.6298)
+INFO 2026-06-12 11:53:11,809 osrm_service 261670 135197819385536 OSRM cache MISS: route:40.7128_-74.006:41.8781_-87.6298
+INFO 2026-06-12 11:53:13,921 views 261670 135197819385536 Route distance 794.67 miles (fresh)
+INFO 2026-06-12 11:53:13,921 views 261670 135197819385536 Loaded 7516 stations
+INFO 2026-06-12 11:53:23,038 fuel_optimizer 261670 135197819385536 Found 219 stations near route
+INFO 2026-06-12 11:55:14,843 data_enrichment_service 264337 136433572013888 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:55:14,843 data_enrichment_service 264337 136433572013888 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:55:14,909 cache_service 264337 136433572013888 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 11:55:16,486 data_enrichment_service 264368 132913613772608 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:55:16,487 data_enrichment_service 264368 132913613772608 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 11:55:16,553 cache_service 264368 132913613772608 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 11:55:16,577 autoreload 264368 132913613772608 Watching for file changes with StatReloader
+INFO 2026-06-12 11:55:20,677 views 264368 132912557061824 Route request received: (40.7128, -74.006) -> (41.8781, -87.6298)
+INFO 2026-06-12 11:55:20,700 osrm_service 264368 132912557061824 OSRM cache HIT: route:40.7128_-74.006:41.8781_-87.6298
+INFO 2026-06-12 11:55:21,005 views 264368 132912557061824 Route distance 794.67 miles (cached)
+INFO 2026-06-12 11:55:21,006 views 264368 132912557061824 Loaded 7516 stations
+INFO 2026-06-12 11:55:24,889 fuel_optimizer 264368 132912557061824 Found 228 stations near route
+INFO 2026-06-12 11:56:50,028 views 264368 132912537917120 Route request received: (40.7128, -74.006) -> (41.8781, -87.6298)
+INFO 2026-06-12 11:56:50,040 osrm_service 264368 132912537917120 OSRM cache HIT: route:40.7128_-74.006:41.8781_-87.6298
+INFO 2026-06-12 11:56:50,272 views 264368 132912537917120 Route distance 794.67 miles (cached)
+INFO 2026-06-12 11:56:50,273 views 264368 132912537917120 Loaded 7516 stations
+INFO 2026-06-12 11:56:53,471 fuel_optimizer 264368 132912537917120 Found 228 stations near route
+INFO 2026-06-12 12:06:09,255 autoreload 264368 132913613772608 /home/abi/personal/fuel_route_optimizer/routes/services/fuel_optimizer.py changed, reloading.
+INFO 2026-06-12 12:06:14,191 data_enrichment_service 268324 138451454490432 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:06:14,191 data_enrichment_service 268324 138451454490432 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:06:14,264 cache_service 268324 138451454490432 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:06:15,890 data_enrichment_service 268356 132569963231040 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:06:15,891 data_enrichment_service 268356 132569963231040 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:06:15,954 cache_service 268356 132569963231040 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:06:15,978 autoreload 268356 132569963231040 Watching for file changes with StatReloader
+INFO 2026-06-12 12:06:27,262 views 268356 132568891283136 Route request received: (40.7128, -74.006) -> (41.8781, -87.6298)
+INFO 2026-06-12 12:06:27,284 osrm_service 268356 132568891283136 OSRM cache HIT: route:40.7128_-74.006:41.8781_-87.6298
+INFO 2026-06-12 12:06:27,574 views 268356 132568891283136 Route distance 794.67 miles (cached)
+INFO 2026-06-12 12:06:27,574 views 268356 132568891283136 Loaded 7516 stations
+INFO 2026-06-12 12:06:41,188 views 268356 132568872138432 Route request received: (40.7128, -74.006) -> (41.8781, -87.6298)
+INFO 2026-06-12 12:06:41,200 osrm_service 268356 132568872138432 OSRM cache HIT: route:40.7128_-74.006:41.8781_-87.6298
+INFO 2026-06-12 12:06:41,420 views 268356 132568872138432 Route distance 794.67 miles (cached)
+INFO 2026-06-12 12:06:41,421 views 268356 132568872138432 Loaded 7516 stations
+INFO 2026-06-12 12:07:24,370 data_enrichment_service 268788 136930223617856 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:07:24,370 data_enrichment_service 268788 136930223617856 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:07:24,457 cache_service 268788 136930223617856 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:07:26,430 data_enrichment_service 268818 127055263512384 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:07:26,431 data_enrichment_service 268818 127055263512384 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:07:26,503 cache_service 268818 127055263512384 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:07:26,528 autoreload 268818 127055263512384 Watching for file changes with StatReloader
+INFO 2026-06-12 12:11:43,008 data_enrichment_service 270625 131492078626624 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:11:43,009 data_enrichment_service 270625 131492078626624 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:11:43,108 cache_service 270625 131492078626624 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:11:45,323 data_enrichment_service 270657 132460330542912 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:11:45,324 data_enrichment_service 270657 132460330542912 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:11:45,405 cache_service 270657 132460330542912 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:11:45,435 autoreload 270657 132460330542912 Watching for file changes with StatReloader
+INFO 2026-06-12 12:11:50,692 views 270657 132459206276800 Route request received: (40.7128, -74.006) -> (41.8781, -87.6298)
+INFO 2026-06-12 12:11:50,716 osrm_service 270657 132459206276800 OSRM cache HIT: route:40.7128_-74.006:41.8781_-87.6298
+INFO 2026-06-12 12:11:51,047 views 270657 132459206276800 Route distance 794.67 miles (cached)
+INFO 2026-06-12 12:11:51,047 views 270657 132459206276800 Loaded 7516 stations
+INFO 2026-06-12 12:11:51,047 fuel_optimizer 270657 132459206276800 🚀 Optimizing route: 794.67 miles
+INFO 2026-06-12 12:11:55,623 fuel_optimizer 270657 132459206276800 Found 303 stations near route
+INFO 2026-06-12 12:11:55,623 fuel_optimizer 270657 132459206276800 Found 303 stations near route
+INFO 2026-06-12 12:11:55,623 fuel_optimizer 270657 132459206276800 Iteration 1: Remaining distance: 794.67 miles
+INFO 2026-06-12 12:11:55,624 fuel_optimizer 270657 132459206276800 Stop 1: S&G #88 @ $3.01/gal, 499.92 miles, Cost: $150.42
+INFO 2026-06-12 12:11:55,624 fuel_optimizer 270657 132459206276800 Iteration 2: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,625 fuel_optimizer 270657 132459206276800 Stop 2: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,626 fuel_optimizer 270657 132459206276800 Iteration 3: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,627 fuel_optimizer 270657 132459206276800 Stop 3: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,627 fuel_optimizer 270657 132459206276800 Iteration 4: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,628 fuel_optimizer 270657 132459206276800 Stop 4: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,628 fuel_optimizer 270657 132459206276800 Iteration 5: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,629 fuel_optimizer 270657 132459206276800 Stop 5: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,630 fuel_optimizer 270657 132459206276800 Iteration 6: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,631 fuel_optimizer 270657 132459206276800 Stop 6: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,631 fuel_optimizer 270657 132459206276800 Iteration 7: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,632 fuel_optimizer 270657 132459206276800 Stop 7: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,632 fuel_optimizer 270657 132459206276800 Iteration 8: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,633 fuel_optimizer 270657 132459206276800 Stop 8: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,634 fuel_optimizer 270657 132459206276800 Iteration 9: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,635 fuel_optimizer 270657 132459206276800 Stop 9: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,635 fuel_optimizer 270657 132459206276800 Iteration 10: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,636 fuel_optimizer 270657 132459206276800 Stop 10: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,636 fuel_optimizer 270657 132459206276800 Iteration 11: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,637 fuel_optimizer 270657 132459206276800 Stop 11: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,637 fuel_optimizer 270657 132459206276800 Iteration 12: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,638 fuel_optimizer 270657 132459206276800 Stop 12: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,639 fuel_optimizer 270657 132459206276800 Iteration 13: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,640 fuel_optimizer 270657 132459206276800 Stop 13: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,640 fuel_optimizer 270657 132459206276800 Iteration 14: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,641 fuel_optimizer 270657 132459206276800 Stop 14: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,641 fuel_optimizer 270657 132459206276800 Iteration 15: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,642 fuel_optimizer 270657 132459206276800 Stop 15: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,642 fuel_optimizer 270657 132459206276800 Iteration 16: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,644 fuel_optimizer 270657 132459206276800 Stop 16: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,644 fuel_optimizer 270657 132459206276800 Iteration 17: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,645 fuel_optimizer 270657 132459206276800 Stop 17: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,645 fuel_optimizer 270657 132459206276800 Iteration 18: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,646 fuel_optimizer 270657 132459206276800 Stop 18: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,646 fuel_optimizer 270657 132459206276800 Iteration 19: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,648 fuel_optimizer 270657 132459206276800 Stop 19: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,648 fuel_optimizer 270657 132459206276800 Iteration 20: Remaining distance: 294.75 miles
+INFO 2026-06-12 12:11:55,649 fuel_optimizer 270657 132459206276800 Stop 20: S&G #88 @ $3.01/gal, 0.00 miles, Cost: $0.00
+INFO 2026-06-12 12:11:55,649 fuel_optimizer 270657 132459206276800 Final segment: 211.21 miles, Cost: $63.55
+ERROR 2026-06-12 12:11:55,649 fuel_optimizer 270657 132459206276800 ❌ Optimization failed: ❌ Cannot reach destination. Gap of 83.54 miles exceeds vehicle range.
+Traceback (most recent call last):
+  File "/home/abi/personal/fuel_route_optimizer/routes/services/fuel_optimizer.py", line 77, in optimize
+    fuel_stops, total_cost = self._greedy_algorithm(
+                             ~~~~~~~~~~~~~~~~~~~~~~^
+        origin,
+        ^^^^^^^
+    ...<3 lines>...
+        total_distance_miles,
+        ^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/abi/personal/fuel_route_optimizer/routes/services/fuel_optimizer.py", line 277, in _greedy_algorithm
+    raise Exception(
+    ...<2 lines>...
+    )
+Exception: ❌ Cannot reach destination. Gap of 83.54 miles exceeds vehicle range.
+WARNING 2026-06-12 12:11:55,656 log 270657 132459206276800 Bad Request: /api/routes/optimize/
+INFO 2026-06-12 12:12:32,010 autoreload 270657 132460330542912 /home/abi/personal/fuel_route_optimizer/routes/services/fuel_optimizer.py changed, reloading.
+INFO 2026-06-12 12:12:34,124 data_enrichment_service 270975 131785775118144 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:12:34,125 data_enrichment_service 270975 131785775118144 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:12:34,197 cache_service 270975 131785775118144 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:12:34,222 autoreload 270975 131785775118144 Watching for file changes with StatReloader
+INFO 2026-06-12 12:15:20,378 data_enrichment_service 272009 135475112191808 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:15:20,378 data_enrichment_service 272009 135475112191808 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:15:20,440 cache_service 272009 135475112191808 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:15:21,970 data_enrichment_service 272040 128395404212032 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:15:21,970 data_enrichment_service 272040 128395404212032 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:15:22,032 cache_service 272040 128395404212032 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:15:22,056 autoreload 272040 128395404212032 Watching for file changes with StatReloader
+INFO 2026-06-12 12:15:26,709 views 272040 128394265097920 Route request received: (40.7128, -74.006) -> (41.8781, -87.6298)
+INFO 2026-06-12 12:15:26,730 osrm_service 272040 128394265097920 OSRM cache HIT: route:40.7128_-74.006:41.8781_-87.6298
+INFO 2026-06-12 12:15:27,002 views 272040 128394265097920 Route distance 794.67 miles (cached)
+INFO 2026-06-12 12:15:27,002 views 272040 128394265097920 Loaded 7516 stations
+INFO 2026-06-12 12:15:47,311 data_enrichment_service 272214 140318237857600 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:15:47,311 data_enrichment_service 272214 140318237857600 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:15:47,382 cache_service 272214 140318237857600 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:15:49,256 data_enrichment_service 272245 130600231982912 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:15:49,256 data_enrichment_service 272245 130600231982912 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:15:49,331 cache_service 272245 130600231982912 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:15:49,358 autoreload 272245 130600231982912 Watching for file changes with StatReloader
+INFO 2026-06-12 12:15:54,916 views 272245 130599175059136 Route request received: (40.7128, -74.006) -> (41.8781, -87.6298)
+INFO 2026-06-12 12:15:54,949 osrm_service 272245 130599175059136 OSRM cache HIT: route:40.7128_-74.006:41.8781_-87.6298
+INFO 2026-06-12 12:15:55,261 views 272245 130599175059136 Route distance 794.67 miles (cached)
+INFO 2026-06-12 12:15:55,261 views 272245 130599175059136 Loaded 7516 stations
+INFO 2026-06-12 12:15:58,676 fuel_optimizer 272245 130599175059136 Found 228 stations near route
+INFO 2026-06-12 12:23:02,227 data_enrichment_service 275268 124049046800192 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:23:02,228 data_enrichment_service 275268 124049046800192 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:23:02,313 cache_service 275268 124049046800192 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:23:04,019 data_enrichment_service 275314 129974970664768 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:23:04,020 data_enrichment_service 275314 129974970664768 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:23:04,083 cache_service 275314 129974970664768 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:23:04,108 autoreload 275314 129974970664768 Watching for file changes with StatReloader
+INFO 2026-06-12 12:23:11,789 views 275314 129973914072768 Route request received: (40.7128, -74.006) -> (41.8781, -87.6298)
+INFO 2026-06-12 12:23:11,811 osrm_service 275314 129973914072768 OSRM cache HIT: route:40.7128_-74.006:41.8781_-87.6298
+INFO 2026-06-12 12:23:12,101 views 275314 129973914072768 Route distance 794.67 miles (cached)
+INFO 2026-06-12 12:23:12,101 views 275314 129973914072768 Loaded 7516 stations
+INFO 2026-06-12 12:23:12,466 fuel_optimizer 275314 129973914072768 Found 252 stations near route
+INFO 2026-06-12 12:23:31,240 views 275314 129973827135168 Route request received: (40.7128, -74.006) -> (41.8781, -87.6298)
+INFO 2026-06-12 12:23:31,252 osrm_service 275314 129973827135168 OSRM cache HIT: route:40.7128_-74.006:41.8781_-87.6298
+INFO 2026-06-12 12:23:31,486 views 275314 129973827135168 Route distance 794.67 miles (cached)
+INFO 2026-06-12 12:23:31,486 views 275314 129973827135168 Loaded 7516 stations
+INFO 2026-06-12 12:23:31,860 fuel_optimizer 275314 129973827135168 Found 252 stations near route
+INFO 2026-06-12 12:23:34,266 views 275314 129973818742464 Route request received: (40.7128, -74.006) -> (41.8781, -87.6298)
+INFO 2026-06-12 12:23:34,277 osrm_service 275314 129973818742464 OSRM cache HIT: route:40.7128_-74.006:41.8781_-87.6298
+INFO 2026-06-12 12:23:34,502 views 275314 129973818742464 Route distance 794.67 miles (cached)
+INFO 2026-06-12 12:23:34,502 views 275314 129973818742464 Loaded 7516 stations
+INFO 2026-06-12 12:23:34,862 fuel_optimizer 275314 129973818742464 Found 252 stations near route
+INFO 2026-06-12 12:23:35,977 views 275314 129973810349760 Route request received: (40.7128, -74.006) -> (41.8781, -87.6298)
+INFO 2026-06-12 12:23:35,988 osrm_service 275314 129973810349760 OSRM cache HIT: route:40.7128_-74.006:41.8781_-87.6298
+INFO 2026-06-12 12:23:36,240 views 275314 129973810349760 Route distance 794.67 miles (cached)
+INFO 2026-06-12 12:23:36,241 views 275314 129973810349760 Loaded 7516 stations
+INFO 2026-06-12 12:23:36,645 fuel_optimizer 275314 129973810349760 Found 252 stations near route
+INFO 2026-06-12 12:23:37,916 views 275314 129973801957056 Route request received: (40.7128, -74.006) -> (41.8781, -87.6298)
+INFO 2026-06-12 12:23:37,927 osrm_service 275314 129973801957056 OSRM cache HIT: route:40.7128_-74.006:41.8781_-87.6298
+INFO 2026-06-12 12:23:38,166 views 275314 129973801957056 Route distance 794.67 miles (cached)
+INFO 2026-06-12 12:23:38,166 views 275314 129973801957056 Loaded 7516 stations
+INFO 2026-06-12 12:23:38,537 fuel_optimizer 275314 129973801957056 Found 252 stations near route
+INFO 2026-06-12 12:25:00,227 views 275314 129973793564352 Route request received: (37.7749, -122.4194) -> (39.7392, -104.9903)
+INFO 2026-06-12 12:25:00,240 osrm_service 275314 129973793564352 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 12:25:00,604 views 275314 129973793564352 Route distance 1254.42 miles (cached)
+INFO 2026-06-12 12:25:00,605 views 275314 129973793564352 Loaded 7516 stations
+INFO 2026-06-12 12:25:00,835 fuel_optimizer 275314 129973793564352 Found 108 stations near route
+INFO 2026-06-12 12:25:15,758 data_enrichment_service 276148 137664492111680 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:25:15,759 data_enrichment_service 276148 137664492111680 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:25:15,830 cache_service 276148 137664492111680 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:25:17,499 data_enrichment_service 276179 136891815999296 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:25:17,499 data_enrichment_service 276179 136891815999296 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:25:17,561 cache_service 276179 136891815999296 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:25:17,583 autoreload 276179 136891815999296 Watching for file changes with StatReloader
+INFO 2026-06-12 12:25:24,795 views 276179 136890758985408 Route request received: (37.7749, -122.4194) -> (39.7392, -104.9903)
+INFO 2026-06-12 12:25:24,820 osrm_service 276179 136890758985408 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 12:25:25,184 views 276179 136890758985408 Route distance 1254.42 miles (cached)
+INFO 2026-06-12 12:25:25,185 views 276179 136890758985408 Loaded 7516 stations
+INFO 2026-06-12 12:25:29,757 fuel_optimizer 276179 136890758985408 Found 101 stations near route
+INFO 2026-06-12 12:25:37,057 views 276179 136890669590208 Route request received: (37.7749, -122.4194) -> (39.7392, -104.9903)
+INFO 2026-06-12 12:25:37,074 osrm_service 276179 136890669590208 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 12:25:37,395 views 276179 136890669590208 Route distance 1254.42 miles (cached)
+INFO 2026-06-12 12:25:37,395 views 276179 136890669590208 Loaded 7516 stations
+INFO 2026-06-12 12:25:41,440 fuel_optimizer 276179 136890669590208 Found 101 stations near route
+INFO 2026-06-12 12:26:11,671 data_enrichment_service 276940 133733084219200 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:26:11,672 data_enrichment_service 276940 133733084219200 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:26:11,736 cache_service 276940 133733084219200 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:26:13,350 data_enrichment_service 276960 123770329388864 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:26:13,350 data_enrichment_service 276960 123770329388864 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:26:13,414 cache_service 276960 123770329388864 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:26:13,437 autoreload 276960 123770329388864 Watching for file changes with StatReloader
+INFO 2026-06-12 12:26:27,608 views 276960 123769203979968 Route request received: (37.7749, -122.4194) -> (39.7392, -104.9903)
+INFO 2026-06-12 12:26:27,643 osrm_service 276960 123769203979968 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 12:26:28,027 views 276960 123769203979968 Route distance 1254.42 miles (cached)
+INFO 2026-06-12 12:26:28,028 views 276960 123769203979968 Loaded 7516 stations
+INFO 2026-06-12 12:26:28,300 fuel_optimizer 276960 123769203979968 Found 108 stations near route
+INFO 2026-06-12 12:29:19,408 views 276960 123769182738112 Route request received: (37.7749, -122.4194) -> (39.7392, -104.9903)
+INFO 2026-06-12 12:29:19,422 osrm_service 276960 123769182738112 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 12:29:19,750 views 276960 123769182738112 Route distance 1254.42 miles (cached)
+INFO 2026-06-12 12:29:19,751 views 276960 123769182738112 Loaded 7516 stations
+INFO 2026-06-12 12:29:19,975 fuel_optimizer 276960 123769182738112 Found 108 stations near route
+INFO 2026-06-12 12:47:21,993 autoreload 276960 123770329388864 /home/abi/personal/fuel_route_optimizer/routes/views.py changed, reloading.
+INFO 2026-06-12 12:47:23,704 data_enrichment_service 285516 130446060443456 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:47:23,704 data_enrichment_service 285516 130446060443456 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:47:23,771 cache_service 285516 130446060443456 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:47:23,796 autoreload 285516 130446060443456 Watching for file changes with StatReloader
+INFO 2026-06-12 12:47:34,648 autoreload 285516 130446060443456 /home/abi/personal/fuel_route_optimizer/routes/views.py changed, reloading.
+INFO 2026-06-12 12:47:36,453 data_enrichment_service 285609 136186994292544 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:47:36,454 data_enrichment_service 285609 136186994292544 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 12:47:36,528 cache_service 285609 136186994292544 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 12:47:36,556 autoreload 285609 136186994292544 Watching for file changes with StatReloader
+INFO 2026-06-12 13:11:47,631 data_enrichment_service 294695 129247425652544 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 13:11:47,632 data_enrichment_service 294695 129247425652544 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 13:11:47,700 cache_service 294695 129247425652544 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 13:11:49,361 data_enrichment_service 294731 139334251886400 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 13:11:49,361 data_enrichment_service 294731 139334251886400 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 13:11:49,426 cache_service 294731 139334251886400 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 13:11:49,451 autoreload 294731 139334251886400 Watching for file changes with StatReloader
+INFO 2026-06-12 13:11:54,275 osrm_service 294731 139333195167424 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 13:11:54,843 fuel_optimizer 294731 139333195167424 Found 108 stations near route
+INFO 2026-06-12 13:13:03,989 data_enrichment_service 295206 127569531139904 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 13:13:03,990 data_enrichment_service 295206 127569531139904 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 13:13:04,056 cache_service 295206 127569531139904 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 13:13:05,659 data_enrichment_service 295236 135481630299968 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 13:13:05,659 data_enrichment_service 295236 135481630299968 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 13:13:05,723 cache_service 295236 135481630299968 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 13:13:05,747 autoreload 295236 135481630299968 Watching for file changes with StatReloader
+INFO 2026-06-12 13:13:10,436 osrm_service 295236 135480506054336 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 13:13:10,997 fuel_optimizer 295236 135480506054336 Found 108 stations near route
+WARNING 2026-06-12 13:13:24,552 log 295236 135480484812480 Bad Request: /api/routes/optimize/
+INFO 2026-06-12 13:13:36,109 osrm_service 295236 135480484812480 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 13:13:36,779 fuel_optimizer 295236 135480484812480 Found 108 stations near route
+INFO 2026-06-12 13:13:39,925 osrm_service 295236 135480476419776 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 13:13:40,436 fuel_optimizer 295236 135480476419776 Found 108 stations near route
+INFO 2026-06-12 13:18:13,388 osrm_service 295236 135480468027072 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 13:18:13,882 fuel_optimizer 295236 135480468027072 Found 108 stations near route
+INFO 2026-06-12 13:29:11,511 data_enrichment_service 301327 138438794245952 Creating enriched fuel CSV...
+INFO 2026-06-12 13:29:11,511 data_enrichment_service 301327 138438794245952 Loading fuel station CSV...
+INFO 2026-06-12 13:29:11,532 data_enrichment_service 301327 138438794245952 Downloading US cities dataset...
+INFO 2026-06-12 13:29:12,236 data_enrichment_service 301327 138438794245952 Merging coordinates...
+INFO 2026-06-12 13:29:12,251 data_enrichment_service 301327 138438794245952 Matched 7516/8151 stations
+INFO 2026-06-12 13:29:12,298 data_enrichment_service 301327 138438794245952 Saved enriched CSV with 8151 rows
+INFO 2026-06-12 13:29:12,301 data_enrichment_service 301327 138438794245952 Created enriched CSV: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 13:29:12,301 data_enrichment_service 301327 138438794245952 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 13:29:12,358 cache_service 301327 138438794245952 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 13:29:13,896 data_enrichment_service 301386 131742241269568 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 13:29:13,896 data_enrichment_service 301386 131742241269568 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 13:29:13,961 cache_service 301386 131742241269568 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 13:29:13,985 autoreload 301386 131742241269568 Watching for file changes with StatReloader
+INFO 2026-06-12 13:29:24,016 osrm_service 301386 131741184423616 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 13:29:25,065 fuel_optimizer 301386 131741184423616 Found 108 stations near route
+INFO 2026-06-12 13:29:30,862 osrm_service 301386 131741163181760 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 13:29:31,586 fuel_optimizer 301386 131741163181760 Found 108 stations near route
+INFO 2026-06-12 15:20:58,666 osrm_service 301386 131741150942912 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 15:20:59,368 fuel_optimizer 301386 131741150942912 Found 108 stations near route
+INFO 2026-06-12 15:21:22,183 osrm_service 301386 131741075371712 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 15:21:22,854 fuel_optimizer 301386 131741075371712 Found 108 stations near route
+INFO 2026-06-12 15:21:56,239 osrm_service 301386 131741066979008 OSRM cache MISS: route:38.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 15:22:00,175 fuel_optimizer 301386 131741066979008 Found 108 stations near route
+INFO 2026-06-12 15:31:20,846 osrm_service 301386 131741058586304 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 15:31:21,319 fuel_optimizer 301386 131741058586304 Found 108 stations near route
+INFO 2026-06-12 15:52:32,960 data_enrichment_service 1 136532868653888 Enriched CSV already exists: /app/data/fuel_prices_enriched.csv
+INFO 2026-06-12 15:52:32,960 data_enrichment_service 1 136532868653888 Enriched CSV already exists: /app/data/fuel_prices_enriched.csv
+INFO 2026-06-12 15:52:33,079 cache_service 1 136532868653888 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 15:52:35,099 data_enrichment_service 22 130926298293056 Enriched CSV already exists: /app/data/fuel_prices_enriched.csv
+INFO 2026-06-12 15:52:35,099 data_enrichment_service 22 130926298293056 Enriched CSV already exists: /app/data/fuel_prices_enriched.csv
+INFO 2026-06-12 15:52:35,210 cache_service 22 130926298293056 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 15:52:35,280 autoreload 22 130926298293056 Watching for file changes with StatReloader
+INFO 2026-06-12 15:52:58,807 osrm_service 22 130925434238656 OSRM cache MISS: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 15:53:01,617 fuel_optimizer 22 130925434238656 Found 108 stations near route
+INFO 2026-06-12 15:53:04,021 osrm_service 22 130925434238656 OSRM cache MISS: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 15:53:10,200 fuel_optimizer 22 130925434238656 Found 108 stations near route
+INFO 2026-06-12 15:53:12,937 osrm_service 22 130925434238656 OSRM cache MISS: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 15:53:16,853 fuel_optimizer 22 130925434238656 Found 108 stations near route
+INFO 2026-06-12 15:53:31,964 data_enrichment_service 332283 124475139598144 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 15:53:31,965 data_enrichment_service 332283 124475139598144 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 15:53:32,069 cache_service 332283 124475139598144 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 15:53:34,609 data_enrichment_service 332329 139577093416768 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 15:53:34,610 data_enrichment_service 332329 139577093416768 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-12 15:53:34,719 cache_service 332329 139577093416768 Loaded 7516 stations (skipped=635)
+INFO 2026-06-12 15:53:34,759 autoreload 332329 139577093416768 Watching for file changes with StatReloader
+INFO 2026-06-12 15:53:44,155 osrm_service 332329 139575968134848 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 15:53:45,248 fuel_optimizer 332329 139575968134848 Found 108 stations near route
+INFO 2026-06-12 15:53:46,564 osrm_service 332329 139575947941568 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 15:53:47,590 fuel_optimizer 332329 139575947941568 Found 108 stations near route
+INFO 2026-06-12 15:53:48,848 osrm_service 332329 139575939548864 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 15:53:49,778 fuel_optimizer 332329 139575939548864 Found 108 stations near route
+INFO 2026-06-12 15:53:53,664 osrm_service 332329 139575931156160 OSRM cache HIT: route:37.7749_-122.4194:39.7392_-104.9903
+INFO 2026-06-12 15:53:54,606 fuel_optimizer 332329 139575931156160 Found 108 stations near route
+INFO 2026-06-12 16:00:35,976 osrm_service 332329 139575922763456 OSRM cache HIT: route:40.7128_-74.006:41.8781_-87.6298
+INFO 2026-06-12 16:00:36,674 fuel_optimizer 332329 139575922763456 Found 252 stations near route
+INFO 2026-06-12 16:01:58,802 osrm_service 332329 139575914370752 OSRM cache MISS: route:34.0522_-118.2437:40.7128_-74.006
+INFO 2026-06-12 16:02:08,873 fuel_optimizer 332329 139575914370752 Found 577 stations near route
+INFO 2026-06-12 16:02:22,396 osrm_service 332329 139575827625664 OSRM cache HIT: route:34.0522_-118.2437:40.7128_-74.006
+INFO 2026-06-12 16:02:27,205 fuel_optimizer 332329 139575827625664 Found 577 stations near route
+INFO 2026-06-12 16:02:42,404 osrm_service 332329 139575815038656 OSRM cache HIT: route:34.0522_-118.2437:40.7128_-74.006
+INFO 2026-06-12 16:02:47,201 fuel_optimizer 332329 139575815038656 Found 577 stations near route
+INFO 2026-06-13 04:02:00,783 data_enrichment_service 402217 140541693978432 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-13 04:02:00,783 data_enrichment_service 402217 140541693978432 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-13 04:02:00,898 cache_service 402217 140541693978432 Loaded 7516 stations (skipped=635)
+INFO 2026-06-13 04:02:02,967 data_enrichment_service 402267 136297595254592 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-13 04:02:02,967 data_enrichment_service 402267 136297595254592 Enriched CSV already exists: /home/abi/personal/fuel_route_optimizer/data/fuel_prices_enriched.csv
+INFO 2026-06-13 04:02:03,046 cache_service 402267 136297595254592 Loaded 7516 stations (skipped=635)
+INFO 2026-06-13 04:02:03,075 autoreload 402267 136297595254592 Watching for file changes with StatReloader
+INFO 2026-06-13 04:02:49,082 osrm_service 402267 136296540403392 OSRM cache HIT: route:34.0522_-118.2437:40.7128_-74.006
+INFO 2026-06-13 04:02:58,352 fuel_optimizer 402267 136296540403392 Found 577 stations near route
+INFO 2026-06-13 04:03:14,500 osrm_service 402267 136296506230464 OSRM cache HIT: route:34.0522_-118.2437:40.7128_-74.006
+INFO 2026-06-13 04:03:22,706 fuel_optimizer 402267 136296506230464 Found 577 stations near route
+INFO 2026-06-13 04:03:42,395 osrm_service 402267 136296425060032 OSRM cache MISS: route:42.3601_-71.0589:25.7617_-80.1918
+INFO 2026-06-13 04:03:47,093 fuel_optimizer 402267 136296425060032 Found 377 stations near route
+INFO 2026-06-13 04:04:07,745 osrm_service 402267 136296416667328 OSRM cache HIT: route:42.3601_-71.0589:25.7617_-80.1918
+INFO 2026-06-13 04:04:10,830 fuel_optimizer 402267 136296416667328 Found 377 stations near route
+INFO 2026-06-13 04:07:54,356 osrm_service 402267 136296408274624 OSRM cache HIT: route:42.3601_-71.0589:25.7617_-80.1918
+INFO 2026-06-13 04:07:56,070 fuel_optimizer 402267 136296408274624 Found 377 stations near route
+INFO 2026-06-13 04:07:59,514 osrm_service 402267 136296399881920 OSRM cache HIT: route:42.3601_-71.0589:25.7617_-80.1918
+INFO 2026-06-13 04:08:01,247 fuel_optimizer 402267 136296399881920 Found 377 stations near route
+INFO 2026-06-13 04:15:38,910 osrm_service 402267 136296391489216 OSRM cache HIT: route:42.3601_-71.0589:25.7617_-80.1918
+INFO 2026-06-13 04:15:41,254 fuel_optimizer 402267 136296391489216 Found 377 stations near route
+WARNING 2026-06-13 04:16:36,142 log 402267 136296383096512 Bad Request: /api/routes/optimize/
