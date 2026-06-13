@@ -12,8 +12,8 @@ The application is fully containerized, including a local Redis instance for agg
 
 **1. Clone the repository and navigate to the project root:**
 bash
-# (Replace with your actual repo clone command if needed)
-cd fuel_route_optimizer
+https://github.com/Abi2841/Fuel-Route-Optimizer-Django-OSRM-Redis.git
+cd Fuel-Route-Optimizer-Django-OSRM-Redis
 
 
 **2. Build and start the containers:**
